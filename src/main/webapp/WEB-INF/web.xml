@@ -1,0 +1,154 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+
+
+
+<web-app>
+
+<context-param>
+           <param-name>file</param-name>
+           <param-value>d:/upload</param-value>
+</context-param>
+
+
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowHeader</servlet-name>
+  	<display-name>ShowHeader</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ShowHeader</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowImage</servlet-name>
+  	<display-name>ShowImage</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ShowImage</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowExcel</servlet-name>
+  	<display-name>ShowExcel</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ShowExcel</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReadInit</servlet-name>
+  	<display-name>ReadInit</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ReadInit</servlet-class>
+  	<init-param>
+  	<param-name>file</param-name>
+  	<param-value>d:/upload</param-value>
+  	</init-param>
+  	<load-on-startup>0</load-on-startup>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowServerInfo</servlet-name>
+  	<display-name>ShowServerInfo</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ShowServerInfo</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowFile</servlet-name>
+  	<display-name>ShowFile</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ShowFile</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Download</servlet-name>
+  	<display-name>Download</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.Download</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>B</servlet-name>
+  	<display-name>B</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.B</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Firstcookie</servlet-name>
+  	<display-name>Firstcookie</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.Firstcookie</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClientCount</servlet-name>
+  	<display-name>ClientCount</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ClientCount</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>FirstSession</servlet-name>
+  	<display-name>FirstSession</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.FirstSession</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ClientCount2</servlet-name>
+  	<display-name>ClientCount2</display-name>
+  	<description></description>
+  	<servlet-class>com.bluedot.ClientCount2</servlet-class>
+  </servlet>
+  
+  
+  
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/RegisterUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowHeader</servlet-name>
+  	<url-pattern>/ShowHeader</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowImage</servlet-name>
+  	<url-pattern>/ShowImage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowExcel</servlet-name>
+  	<url-pattern>/ShowExcel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReadInit</servlet-name>
+  	<url-pattern>/ReadInit</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowServerInfo</servlet-name>
+  	<url-pattern>/ShowServerInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowFile</servlet-name>
+  	<url-pattern>/ShowFile</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Download</servlet-name>
+  	<url-pattern>/download.action</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>B</servlet-name>
+  	<url-pattern>/B.atction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Firstcookie</servlet-name>
+  	<url-pattern>/Firstcookie</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClientCount</servlet-name>
+  	<url-pattern>/ClientCount</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>FirstSession</servlet-name>
+  	<url-pattern>/FirstSession</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ClientCount2</servlet-name>
+  	<url-pattern>/ClientCount2</url-pattern>
+  </servlet-mapping>
+</web-app>
